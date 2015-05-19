@@ -1,18 +1,17 @@
 # Programs
 
-## Calculator
-### Make Instructions
+## Simple Calculator
+### Make
 ```
 cd calc
 make
 ```
-
-### Run instuctions
-`calc/calc`
-
-### Example
+### Install
 ```
-calc/calc
-( 3 + 4 ) * 2
-= 14
+cd calc
+make install
+```
+### Run
+```
+echo "(34 + 45) * 56" | calc
 ```

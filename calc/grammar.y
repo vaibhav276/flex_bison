@@ -11,7 +11,7 @@
 %%
 
 calclist: /* empty */
- | calclist exp EOL { printf("= %d\n", $2); }
+ | calclist exp EOL { printf("%d\n", $2); }
  ;
 
 exp: factor
